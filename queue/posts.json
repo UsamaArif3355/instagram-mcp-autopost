@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": "example-image",
+      "type": "image",
+      "imageUrl": "https://example.com/your-public-image.jpg",
+      "caption": "Replace me with a real caption. #example",
+      "scheduledAt": "2030-01-01T18:00:00+05:00",
+      "status": "pending"
+    }
+  ]
+}

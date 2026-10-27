@@ -1,0 +1,23 @@
+{
+  "name": "ig-autopost",
+  "version": "1.0.0",
+  "description": "Zero-dependency Instagram auto-poster using the official Instagram Graph API and GitHub Actions",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "post": "node src/post.js",
+    "post:dry": "node src/post.js --dry-run",
+    "check-token": "node src/check-token.js",
+    "validate": "node src/validate.js"
+  },
+  "keywords": [
+    "instagram",
+    "instagram-graph-api",
+    "automation",
+    "github-actions",
+    "scheduler"
+  ]
+}
